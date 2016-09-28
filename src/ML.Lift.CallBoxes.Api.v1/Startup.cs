@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace ML.Lift.Dispatch.Api.v1
+namespace ML.Lift.CallBoxes.Api.v1
 {
     public class Startup
     {

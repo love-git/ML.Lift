@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>221b57b8-bee0-441c-9c36-571d7a422123</ProjectGuid>
-    <RootNamespace>ML.Lift.Dispatch.Repositories</RootNamespace>
+    <ProjectGuid>1441fdf9-2388-4329-8582-848489086389</ProjectGuid>
+    <RootNamespace>ML.Lift.CallBoxes.Proxies</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>

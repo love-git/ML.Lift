@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ML.Lift.Dispatch.Api.v1
+namespace ML.Lift.CallBoxes.Api.v1
 {
     public class Program
     {

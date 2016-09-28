@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ML.Lift.Dispatch.Client")]
+[assembly: AssemblyProduct("ML.Lift.CallBoxes.Client")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("47b8fa5b-ae83-4ca5-bf4f-4adeba77ec42")]
+[assembly: Guid("e9e39408-79f2-4629-97ee-0b61b60562c9")]
