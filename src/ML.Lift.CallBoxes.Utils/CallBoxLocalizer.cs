@@ -13,19 +13,25 @@ namespace ML.Lift.CallBoxes.Utils
         {
             _phraseDictionary = new Dictionary<PhraseCode, string>
             {
-                { PhraseCode.InvalidValidator, Localization.InvalidValidatorText},
-                { PhraseCode.InvalidDateTimeGenerator, Localization.InvalidDateTimeGeneratorText},
-                { PhraseCode.InvalidCallBoxFactories, Localization.InvalidCallBoxFactoriesText},
-                { PhraseCode.MultipleCallBoxFactoriesForSameCallBoxType, Localization.MultipleCallBoxFactoriesForSameCallBoxTypeText},
-                { PhraseCode.InvalidMessageFactory, Localization.InvalidMessageFactoryText},
-                { PhraseCode.InvalidPublisher, Localization.InvalidPublisherText},
-                { PhraseCode.InvalidIdGenerator, Localization.InvalidIdGeneratorText},
-                { PhraseCode.InvalidAdminRepository, Localization.InvalidAdminRepositoryText},
-                { PhraseCode.InvalidCallBoxType, Localization.InvalidCallBoxTypeText},
-                { PhraseCode.Unknown, Localization.UnknownText},
-                { PhraseCode.ValidationCode_BadCreateCallBoxRequest, Localization.BadCreateCallBoxRequest},
-                { PhraseCode.ValidationCode_Valid, Localization.Valid},
-                { PhraseCode.Success, Localization.SuccessText}
+                { PhraseCode.InvalidValidator, Localization.InvalidValidatorText },
+                { PhraseCode.InvalidDateTimeGenerator, Localization.InvalidDateTimeGeneratorText },
+                { PhraseCode.InvalidCallBoxFactories, Localization.InvalidCallBoxFactoriesText },
+                { PhraseCode.MultipleCallBoxFactoriesForSameCallBoxType, Localization.MultipleCallBoxFactoriesForSameCallBoxTypeText },
+                { PhraseCode.InvalidMessageFactory, Localization.InvalidMessageFactoryText },
+                { PhraseCode.InvalidPublisher, Localization.InvalidPublisherText },
+                { PhraseCode.InvalidIdGenerator, Localization.InvalidIdGeneratorText },
+                { PhraseCode.InvalidAdminRepository, Localization.InvalidAdminRepositoryText },
+                { PhraseCode.InvalidCallBoxType, Localization.InvalidCallBoxTypeText },
+                { PhraseCode.Unknown, Localization.UnknownText },
+                { PhraseCode.ValidationCode_BadCreateCallBoxRequest, Localization.BadCreateCallBoxRequest },
+                { PhraseCode.ValidationCode_BadId, Localization.BadId },
+                { PhraseCode.ValidationCode_BadIds, Localization.BadIds },
+                { PhraseCode.ValidationCode_BadUpdateCallBoxRequest, Localization.BadUpdateCallBoxRequest },
+                { PhraseCode.ValidationCode_BadPartialUpdateCallBoxRequest, Localization.BadPartialUpdateCallBoxRequest },
+                { PhraseCode.ValidationCode_BadOffset, Localization.BadOffset },
+                { PhraseCode.ValidationCode_BadLimit, Localization.BadLimit },
+                { PhraseCode.ValidationCode_Valid, Localization.Valid },
+                { PhraseCode.Success, Localization.SuccessText }
             };
         }
 
@@ -50,6 +56,30 @@ namespace ML.Lift.CallBoxes.Utils
                 case ValidationCode.BadCreateCallBoxRequest:
                 {
                     return _phraseDictionary[PhraseCode.ValidationCode_BadCreateCallBoxRequest];
+                }
+                case ValidationCode.BadId:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadId];
+                }
+                case ValidationCode.BadIds:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadIds];
+                }
+                case ValidationCode.BadUpdateCallBoxRequest:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadUpdateCallBoxRequest];
+                }
+                case ValidationCode.BadPartialUpdateCallBoxRequest:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadPartialUpdateCallBoxRequest];
+                }
+                case ValidationCode.BadOffset:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadOffset];
+                }
+                case ValidationCode.BadLimit:
+                {
+                    return _phraseDictionary[PhraseCode.ValidationCode_BadLimit];
                 }
                 default:
                 case ValidationCode.Valid:

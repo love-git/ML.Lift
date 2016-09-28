@@ -22,6 +22,18 @@
 
         ValidationCode_BadCreateCallBoxRequest,
 
+        ValidationCode_BadId,
+
+        ValidationCode_BadIds,
+
+        ValidationCode_BadUpdateCallBoxRequest,
+
+        ValidationCode_BadPartialUpdateCallBoxRequest,
+
+        ValidationCode_BadOffset,
+
+        ValidationCode_BadLimit,
+
         ValidationCode_Valid,
 
         Missing,

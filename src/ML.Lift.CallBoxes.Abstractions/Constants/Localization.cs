@@ -13,6 +13,12 @@
         public const string InvalidCallBoxTypeText = "invalid callBoxType";
         public const string UnknownText = "unknown error";
         public const string BadCreateCallBoxRequest = "invalid createCallBoxRequest";
+        public const string BadId = "invalid id";
+        public const string BadIds = "invalid ids";
+        public const string BadUpdateCallBoxRequest = "invalid updateCallBoxRequest";
+        public const string BadPartialUpdateCallBoxRequest = "invalid partialUpdateCallBoxRequest";
+        public const string BadOffset = "invalid offset";
+        public const string BadLimit = "invalid limit";
         public const string Valid = "valid";
         public const string SuccessText = "success";
     }
