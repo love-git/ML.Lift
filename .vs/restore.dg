@@ -1,3 +1,8 @@
-#:C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj
-C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
-C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
+#:C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Repositories\ML.Lift.Structures.Repositories.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Repositories\ML.Lift.Structures.Repositories.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Abstractions\ML.Lift.Structures.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Abstractions\ML.Lift.Structures.Abstractions.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
+#:C:\dev\venafi\ML.Lift\test\ML.Lift.Sandbox\ML.Lift.Sandbox.xproj
+C:\dev\venafi\ML.Lift\test\ML.Lift.Sandbox\ML.Lift.Sandbox.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Abstractions\ML.Lift.Structures.Abstractions.xproj
+C:\dev\venafi\ML.Lift\test\ML.Lift.Sandbox\ML.Lift.Sandbox.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Repositories\ML.Lift.Structures.Repositories.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Abstractions\ML.Lift.Structures.Abstractions.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Repositories\ML.Lift.Structures.Repositories.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Structures.Abstractions\ML.Lift.Structures.Abstractions.xproj

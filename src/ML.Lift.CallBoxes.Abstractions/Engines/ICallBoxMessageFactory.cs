@@ -6,8 +6,8 @@ namespace ML.Lift.CallBoxes.Abstractions.Engines
 {
     public interface ICallBoxMessageFactory
     {
-        CallBoxMessage BuildCreateMessage(CallBox callBox);
-        CallBoxMessage BuildUpdateMessage(CallBox callBox);
+        CallBoxMessage BuildCreateMessage(CallBox callBox, DateTime createTime);
+        CallBoxMessage BuildUpdateMessage(CallBox callBox, DateTime updateTime);
         CallBoxMessage BuildGetMessage(CallBox callBox, DateTime getTime);
         CallBoxMessage[] BuildGetMessages(CallBox[] callBoxes, DateTime getTime);
         CallBoxMessage BuildDeleteMessage(Guid id, DateTime deleteTime);

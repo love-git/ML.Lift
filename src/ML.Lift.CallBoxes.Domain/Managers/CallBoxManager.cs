@@ -166,7 +166,7 @@ namespace ML.Lift.CallBoxes.Domain.Managers
                 }
 
                 // Create the message.
-                var message = _messageFactory.BuildCreateMessage(newCallBox);
+                var message = _messageFactory.BuildCreateMessage(newCallBox, lastModified);
 
                 // Publish the message.
                 await _publisher.PublishCallBoxMessageAsync(message);
@@ -257,7 +257,7 @@ namespace ML.Lift.CallBoxes.Domain.Managers
                 }
 
                 // Create the message.
-                var message = _messageFactory.BuildUpdateMessage(callBox);
+                var message = _messageFactory.BuildUpdateMessage(callBox, lastModified);
 
                 // Publish the message.
                 await _publisher.PublishCallBoxMessageAsync(message);
@@ -387,7 +387,7 @@ namespace ML.Lift.CallBoxes.Domain.Managers
                 }
 
                 // Create the message.
-                var message = _messageFactory.BuildUpdateMessage(callBox);
+                var message = _messageFactory.BuildUpdateMessage(callBox, lastModified);
 
                 // Publish the message.
                 await _publisher.PublishCallBoxMessageAsync(message);
