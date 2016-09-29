@@ -1,1 +1,3 @@
-#:C:\dev\venafi\ML.Lift\src\ML.Lift.Dispatches.CarBoxSubscriber\ML.Lift.Dispatches.CarBoxSubscriber.xproj
+#:C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj

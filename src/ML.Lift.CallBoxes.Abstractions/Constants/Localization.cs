@@ -21,5 +21,10 @@
         public const string BadLimit = "invalid limit";
         public const string Valid = "valid";
         public const string SuccessText = "success";
+        public const string InvalidMongoClient = "invalid mongo client";
+        public const string InvalidMongoOptionAccessor = "invalid mongo option accessor";
+        public const string InvalidMongoOptions = "invalid mongo options";
+        public const string InvalidMongoOptionsDatabase = "invalid mongo options.Database";
+        public const string InvalidMongoOptionsCollection = "invalid mongo options.Collection";
     }
 }

@@ -30,7 +30,12 @@ namespace ML.Lift.CallBoxes.Utils
                 { PhraseCode.ValidationCode_BadPartialUpdateCallBoxRequest, Localization.BadPartialUpdateCallBoxRequest },
                 { PhraseCode.ValidationCode_BadOffset, Localization.BadOffset },
                 { PhraseCode.ValidationCode_BadLimit, Localization.BadLimit },
-                { PhraseCode.ValidationCode_Valid, Localization.Valid },
+                { PhraseCode.ValidationCode_Valid, Localization.Valid },                
+                { PhraseCode.InvalidMongoClient, Localization.InvalidMongoClient },
+                { PhraseCode.InvalidMongoOptionAccessor, Localization.InvalidMongoOptionAccessor },
+                { PhraseCode.InvalidMongoOptions, Localization.InvalidMongoOptions },
+                { PhraseCode.InvalidMongoOptionsDatabase, Localization.InvalidMongoOptionsDatabase },
+                { PhraseCode.InvalidMongoOptionsCollection, Localization.InvalidMongoOptionsCollection },
                 { PhraseCode.Success, Localization.SuccessText }
             };
         }

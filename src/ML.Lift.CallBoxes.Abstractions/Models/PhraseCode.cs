@@ -38,6 +38,16 @@
 
         Missing,
 
+        InvalidMongoClient,
+
+        InvalidMongoOptionAccessor,
+
+        InvalidMongoOptions,
+
+        InvalidMongoOptionsDatabase,
+
+        InvalidMongoOptionsCollection,
+
         Unknown,
 
         Success
