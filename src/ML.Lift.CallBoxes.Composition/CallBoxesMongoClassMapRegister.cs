@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using MongoDB.Bson.Serialization;
+using ML.Lift.CallBoxes.Abstractions.Models;
 
 namespace ML.Lift.CallBoxes.Composition
 {
@@ -13,15 +11,15 @@ namespace ML.Lift.CallBoxes.Composition
         {
             if (!_isRegistered)
             {
-                //// Mongo registration.
-                //BsonClassMap.RegisterClassMap<Account>(a =>
-                //{
-                //    a.AutoMap();
-                //    a.SetIsRootClass(true);
-                //});
-                //BsonClassMap.RegisterClassMap<JetPayAccount>();
-                //BsonClassMap.RegisterClassMap<ConvergeAccount>();
-                //_isRegistered = true;
+                // Mongo registration.
+                BsonClassMap.RegisterClassMap<CallBox>(a =>
+                {
+                    a.AutoMap();
+                    a.SetIsRootClass(true);
+                });
+                BsonClassMap.RegisterClassMap<SimulationCallBox>();
+                BsonClassMap.RegisterClassMap<FancyCallBox>();
+                _isRegistered = true;
             }
         }
     }

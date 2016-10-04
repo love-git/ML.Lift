@@ -1,4 +1,15 @@
-#:C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Composition\ML.Lift.Common.Composition.xproj
+#:C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Api.v1\ML.Lift.CallBoxes.Api.v1.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Api.v1\ML.Lift.CallBoxes.Api.v1.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Api.v1\ML.Lift.CallBoxes.Api.v1.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Composition\ML.Lift.Common.Composition.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Domain\ML.Lift.CallBoxes.Domain.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Utils\ML.Lift.CallBoxes.Utils.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Composition\ML.Lift.CallBoxes.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Domain\ML.Lift.CallBoxes.Domain.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Repositories\ML.Lift.CallBoxes.Repositories.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
+C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Utils\ML.Lift.CallBoxes.Utils.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.CallBoxes.Abstractions\ML.Lift.CallBoxes.Abstractions.xproj
 C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Composition\ML.Lift.Common.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
 C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Composition\ML.Lift.Common.Composition.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Utils\ML.Lift.Common.Utils.xproj
 C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Utils\ML.Lift.Common.Utils.xproj|C:\dev\venafi\ML.Lift\src\ML.Lift.Common.Abstractions\ML.Lift.Common.Abstractions.xproj
