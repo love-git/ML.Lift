@@ -1,7 +1,7 @@
 ﻿using ML.Lift.Common.Abstractions.Utils;
 using System;
 
-namespace ML.Lift.Common.Domain.Utils
+namespace ML.Lift.Common.Utils
 {
     public class DateTimeGenerator : IDateTimeGenerator
     {

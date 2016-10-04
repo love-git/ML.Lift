@@ -2,6 +2,8 @@
 {
     public enum CallBoxType
     {
-        Simulation
+        Simulation,
+        
+        Fancy
     }
 }

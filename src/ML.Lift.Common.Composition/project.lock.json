@@ -1092,6 +1092,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ML.Lift.Common.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "netstandard1.6/ML.Lift.Common.Abstractions.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/ML.Lift.Common.Abstractions.dll": {}
+        }
+      },
+      "ML.Lift.Common.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "ML.Lift.Common.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "netstandard1.6/ML.Lift.Common.Utils.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/ML.Lift.Common.Utils.dll": {}
+        }
       }
     }
   },
@@ -4108,11 +4135,23 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "ML.Lift.Common.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ML.Lift.Common.Abstractions/project.json",
+      "msbuildProject": "../ML.Lift.Common.Abstractions/ML.Lift.Common.Abstractions.xproj"
+    },
+    "ML.Lift.Common.Utils/1.0.0": {
+      "type": "project",
+      "path": "../ML.Lift.Common.Utils/project.json",
+      "msbuildProject": "../ML.Lift.Common.Utils/ML.Lift.Common.Utils.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Autofac >= 4.1.1",
+      "ML.Lift.Common.Abstractions >= 1.0.0-*",
+      "ML.Lift.Common.Utils >= 1.0.0-*",
       "NETStandard.Library >= 1.6.0"
     ],
     ".NETStandard,Version=v1.6": []

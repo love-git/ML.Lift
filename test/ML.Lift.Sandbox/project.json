@@ -9,6 +9,11 @@
       "type": "platform",
       "version": "1.0.1"
     },
+    "ML.Lift.CallBoxes.Abstractions": "1.0.0-*",
+    "ML.Lift.CallBoxes.Composition": "1.0.0-*",
+    "ML.Lift.CallBoxes.Domain": "1.0.0-*",
+    "ML.Lift.CallBoxes.Repositories": "1.0.0-*",
+    "ML.Lift.CallBoxes.Utils": "1.0.0-*",
     "ML.Lift.Structures.Abstractions": "1.0.0-*",
     "ML.Lift.Structures.Repositories": "1.0.0-*",
     "Newtonsoft.Json": "9.0.1"

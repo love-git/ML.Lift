@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>b339aa0e-4a95-4618-9504-3274fff21931</ProjectGuid>
-    <RootNamespace>ML.Lift.Common.Domain</RootNamespace>
+    <ProjectGuid>3287efba-ff73-49f5-8db0-20609ac40680</ProjectGuid>
+    <RootNamespace>ML.Lift.Common.Composition</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
