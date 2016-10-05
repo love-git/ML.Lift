@@ -64,8 +64,8 @@ namespace ML.Lift.CallBoxes.Api.v1
                 // Input Json Formatter
                 var inputSerializerSettings = new JsonSerializerSettings();
                 inputSerializerSettings.Converters.Add(new StringEnumConverter());
-                //inputSerializerSettings.Converters.Add(new CreateAccountRequestConverter());
-                //inputSerializerSettings.Converters.Add(new UpdateAccountRequestConverter());
+                //inputSerializerSettings.Converters.Add(new CreateCallBoxRequestConverter());
+                //inputSerializerSettings.Converters.Add(new UpdateCallBoxRequestConverter());
                 var jsonInputFormatter = new JsonInputFormatter(JsonInputFormatterLogger, inputSerializerSettings, ArrayPool<char>.Shared, new DefaultObjectPoolProvider());
                 options.InputFormatters.RemoveType<JsonInputFormatter>();
                 options.InputFormatters.Insert(0, jsonInputFormatter);
