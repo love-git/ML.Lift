@@ -2,7 +2,7 @@
 
 Visual Studio Professional 2015 v14.0.25431.01 Update 3
 
-[.Net Core SDK](https://www.microsoft.com/net/core#windows)
+[.Net Core SDK](https://www.microsoft.com/net/core#windows) in the global.json file it shows the sdk version as 1.0.0-preview2-003131.
 
 #Build:
 
